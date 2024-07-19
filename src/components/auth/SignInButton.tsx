@@ -50,7 +50,7 @@ const UserAuthForm: FC<UserAuthFormProps> = ({ className, ...props }) => {
             Dashboard
           </Link>
 
-          <UserAccountNav
+          {/* <UserAccountNav
             name={
               !session.user.given_name || !session.user.family_name
                 ? "Your Account"
@@ -58,7 +58,7 @@ const UserAuthForm: FC<UserAuthFormProps> = ({ className, ...props }) => {
             }
             email={session.user.email ?? ""}
             imageUrl={session.user.picture ?? ""}
-          />
+          /> */}
         </>
       )}
     </div>
